@@ -36,3 +36,11 @@ li a:hover:not(.active) {
  .active {
     background-color: #4CAF50;
 }
+div#box {
+    border: 4px solid royalblue;
+    background-color: skyblue;
+    height: 250px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
