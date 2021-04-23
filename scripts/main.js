@@ -16,8 +16,9 @@ function encrypt() {
 }
 
 //decryption (decrypts the cipher text into the plain text)
-function decrypt()
+function decrypt() {
    var cmessage =prompt("Enter a ciphertext message");
    var plaintext = "";
    plaintext = cmessage.replace(/kat/g , "k").replace(/et/g , "e").replace(/at/g , "a");
    document.getElementById("labox").innerHTML = plaintext.charCodeAt()
+}
